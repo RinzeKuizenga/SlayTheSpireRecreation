@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8378421e4fb04a45afd288e53e77b7f, type: 3}
-  m_Name: YakuzaCard
+  m_Name: LegendaryItem
   m_EditorClassIdentifier: 
-  cardName: Yakuza
-  artwork: {fileID: -2074269160, guid: 3290e540f8b2d314d98d9091ffe6b410, type: 3}
-  background: {fileID: -779170267, guid: 12266ae04e65c444fa5bed98336b92c8, type: 3}
-  description: So sick
-  type: 1
+  cardName: Kaiseki Dinner
+  artwork: {fileID: -2133097687, guid: 503f547815611514cb0b62fcc305e7ab, type: 3}
+  background: {fileID: -1463916559, guid: 12266ae04e65c444fa5bed98336b92c8, type: 3}
+  description: Heal 12 Damage
+  type: 2
+  rarity: 3
   damageAmount: 0
-  blockAmount: 5
-  healAmount: 0
+  blockAmount: 0
+  healAmount: 12

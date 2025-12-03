@@ -7,6 +7,13 @@ public enum CardType
     Defend,
     Item
 }
+public enum Rarity
+{
+    Common,
+    Uncommon,
+    Rare,
+    Legendary
+}
 
 [CreateAssetMenu(fileName = "New Card", menuName = "Card")]
 public class Card : ScriptableObject
@@ -17,6 +24,7 @@ public class Card : ScriptableObject
     public string description;
 
     public CardType type;
+    public Rarity rarity;
 
     public int damageAmount;
     public int blockAmount;

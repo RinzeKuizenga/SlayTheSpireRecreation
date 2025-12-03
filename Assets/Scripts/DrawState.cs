@@ -9,11 +9,9 @@ public class DrawState : GameStateBase
 
     public override void Enter()
     {
-        Debug.Log("ENTER: DrawState");
-
-        // Later: gm.deckManager.Draw(3)
-        // Nu: ga direct door naar ActionState:
+        DeckManager.Instance.Draw(3);
         gm.ChangeState(new ActionState(gm));
+
     }
 }
 

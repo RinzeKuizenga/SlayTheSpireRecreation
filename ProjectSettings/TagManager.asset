@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Darkness
   - SlideSpot
+  - Hand
   layers:
   - Default
   - TransparentFX
