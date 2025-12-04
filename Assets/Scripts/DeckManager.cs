@@ -13,7 +13,10 @@ public class DeckManager : MonoBehaviour
     public List<Card> legendaries = new List<Card>();
 
     public Transform handArea;
-    public GameObject cardPrefab;
+    public GameObject attackPrefab;
+    public GameObject defendPrefab;
+    public GameObject itemPrefab;
+
 
     private void Awake()
     {
@@ -59,6 +62,7 @@ public class DeckManager : MonoBehaviour
     {
         Rarity rarity = GetRandomRarity();
         Card chosen = null;
+        GameObject prefabToUse = null;
 
         if (rarity == Rarity.Common && commons.Count > 0)
         {
@@ -77,7 +81,21 @@ public class DeckManager : MonoBehaviour
             chosen = legendaries[Random.Range(0, legendaries.Count)];
         }
 
-        GameObject newCard = Instantiate(cardPrefab, handArea);
+
+        switch (chosen.type)
+        {
+            case CardType.Attack:
+                prefabToUse = attackPrefab;
+                break;
+            case CardType.Defend:
+                prefabToUse = defendPrefab;
+                break;
+            case CardType.Item:
+                prefabToUse = itemPrefab;
+                break;
+        }
+
+        GameObject newCard = Instantiate(prefabToUse, handArea);
         newCard.GetComponent<CardBase>().cardData = chosen;
         newCard.GetComponent<CardDisplay>().card = chosen;
 

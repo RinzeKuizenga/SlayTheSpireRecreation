@@ -9,7 +9,7 @@ public class DrawState : GameStateBase
 
     public override void Enter()
     {
-        DeckManager.Instance.Draw(3);
+        DeckManager.Instance.Draw(12);
         gm.ChangeState(new ActionState(gm));
 
     }

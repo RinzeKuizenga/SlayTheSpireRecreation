@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LegendaryItem
   m_EditorClassIdentifier: 
   cardName: Kaiseki Dinner
-  artwork: {fileID: -2133097687, guid: 503f547815611514cb0b62fcc305e7ab, type: 3}
+  artwork: {fileID: 21300000, guid: 006ced00b903edc40a9fd803ce529dc8, type: 3}
   background: {fileID: -1463916559, guid: 12266ae04e65c444fa5bed98336b92c8, type: 3}
   description: Heal 12 Damage
   type: 2

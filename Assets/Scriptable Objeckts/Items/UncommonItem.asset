@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: UncommonItem
   m_EditorClassIdentifier: 
   cardName: Mochi Balls
-  artwork: {fileID: -2133097687, guid: 503f547815611514cb0b62fcc305e7ab, type: 3}
+  artwork: {fileID: 21300000, guid: eb4e673a7e687da43ae3f871dccb7e5a, type: 3}
   background: {fileID: -1463916559, guid: 12266ae04e65c444fa5bed98336b92c8, type: 3}
   description: Heal 6 Damage
   type: 2

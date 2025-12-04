@@ -435,9 +435,9 @@ GameObject:
   - component: {fileID: 2406638609240851919}
   - component: {fileID: 1186673945765641886}
   - component: {fileID: 589226244213772818}
-  - component: {fileID: 6516671791363966388}
+  - component: {fileID: 378867078044391752}
   m_Layer: 5
-  m_Name: Card
+  m_Name: AttackCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -517,7 +517,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6516671791363966388
+--- !u!114 &378867078044391752
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -529,4 +529,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a7623cedba3774494742f3a1e057ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardData: {fileID: 11400000, guid: 8b6c517c43d896e419fd537cff387cd4, type: 2}
+  cardData: {fileID: 0}

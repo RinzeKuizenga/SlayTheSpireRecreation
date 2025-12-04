@@ -10,6 +10,8 @@ public class EnemyState : GameStateBase
 
         Enemy.Instance.PerformAttack();
 
+        Player.Instance.ResetBlock();
+
         gm.ChangeState(new DrawState(gm));
     }
 }

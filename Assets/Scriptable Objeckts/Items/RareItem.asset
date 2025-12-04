@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8378421e4fb04a45afd288e53e77b7f, type: 3}
   m_Name: RareItem
   m_EditorClassIdentifier: 
-  cardName: Big Bowl' o Ramen
-  artwork: {fileID: -2133097687, guid: 503f547815611514cb0b62fcc305e7ab, type: 3}
+  cardName: Ramen Bowl
+  artwork: {fileID: 21300000, guid: 6104788ae30a7f54a992012a0f75319f, type: 3}
   background: {fileID: -1463916559, guid: 12266ae04e65c444fa5bed98336b92c8, type: 3}
   description: Heal 9 Damage
   type: 2
